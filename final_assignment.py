@@ -59,7 +59,7 @@ while True:
 
     # 가장 짧은 거리의 질문의 인덱스로 해당 답변 반환
     closest_answer = answers[closest_index]
-    # 가장 짧은 거리의 질문 출력
-    # print('가장 짧은 거리의 질문:', closest_question )
     print('Chatbot:', closest_answer)
     
+    # 가장 짧은 거리의 질문 출력
+    # print('가장 짧은 거리의 질문:', closest_question )
