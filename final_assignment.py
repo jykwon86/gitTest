@@ -47,7 +47,7 @@ while True:
     # 가장 짧은 레벤슈타인 거리,질문,인덱스 초기화
     closest_distance = float('inf')
     closest_question = ""
-    closest_index = -1
+    closest_index = 0
 
     # 레벤슈타인 거리 계산 및 가장 짧은 거리의 질문과 인덱스 찾기
     for i, question in enumerate(questions):
